@@ -1,0 +1,89 @@
+body {
+  background-color: #121212;
+  color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.categorias, .duracion {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comenzar {
+  display: block;
+  margin-top: 30px;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.comenzar:hover {
+  background-color: #3e8e41;
+}
+
+.puntuacion {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.opciones {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.opcion {
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #2196F3;
+  color: #f5f5f5;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.opcion:hover {
+  background-color: #0c7edc;
+}
+
+.respuesta {
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.respuesta.correcta {
+  background-color: #3CB371;
+}
+
+.respuesta.incorrecta {
+  background-color: #FF6347;
+}

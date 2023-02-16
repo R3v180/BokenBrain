@@ -1,0 +1,8 @@
+[
+  {
+    "category": "animals",
+    "question": "¿Cuál es el animal más grande del mundo?",
+    "options": ["Elefante", "Ballena azul", "Jirafa"],
+    "answer": "Ballena azul"
+  },
+]
